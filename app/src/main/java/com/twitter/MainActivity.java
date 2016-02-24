@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
                 String tweetUrl = "https://twitter.com/intent/tweet?text=prueba HERE &url="
                         + "https://www.google.com";
                 Uri uri = Uri.parse(tweetUrl);
-                
+
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
 //                try {
 //                    InputStream stream = getContentResolver().openInputStream(screenshotUri);
