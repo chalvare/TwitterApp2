@@ -24,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
 //                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
 //                Uri screenshotUri = Uri.parse("android.resource://com.twitter/*");
-                String tweetUrl = "https://twitter.com/intent/tweet?text=prueba HERE &url="
+                String tweetUrl = "https://twitter.com/intent/tweet?text=prueba2 HERE &url="
                         + "https://www.google.com";
                 Uri uri = Uri.parse(tweetUrl);
 
